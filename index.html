@@ -11,18 +11,28 @@
           <img
             src="./giphy.gif"
             alt="Cute animated mail sticker"
-            width="150"
-            height="150"
+            width="350"
+            height="350"
           />
         </div>
-        <div>
+        <div class="buttons">
           <button class="button-1" onclick="yesClick()">Tak</button>
+          <button
+            class="button-1"
+            onclick="noClick()"
+            style="margin-left: 20px"
+          >
+            Nie
+          </button>
         </div>
       </div>
     </div>
     <script>
       function yesClick() {
         window.location.href = "yes.html";
+      }
+      function noClick() {
+        window.location.href = "no.html";
       }
     </script>
   </body>
